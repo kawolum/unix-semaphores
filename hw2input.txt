@@ -1,0 +1,33 @@
+5
+4
+customer_1:
+reserve 2
+cancel 1
+check 1
+pay 3
+reserve(1-2) 1101 2 first_last_1 deadline 5
+end.
+: : :
+customer_2:
+reserve 4
+cancel 2
+check 1
+pay 6
+reserve(1-2) 1103 1 first_last_2 deadline 7
+end.
+: : :
+customer_3:
+reserve 4
+cancel 2
+check 1
+pay 6
+reserve(2) 1102 1 first_last_3 deadline 6
+end.
+: : :
+customer_4:
+reserve 1
+cancel 1
+check 1
+pay 1
+reserve(6) 1102 1 first_last_4 deadline 6
+end.
